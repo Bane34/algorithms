@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
 
+# For gcc binaries 
+*
+
 # Compiled Object files
 *.slo
 *.lo
