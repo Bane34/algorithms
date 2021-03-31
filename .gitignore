@@ -4,6 +4,9 @@
 # For gcc binaries 
 *
 
+# For include the cpp files
+!*.cpp
+
 # Compiled Object files
 *.slo
 *.lo
