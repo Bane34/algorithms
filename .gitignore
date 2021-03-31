@@ -7,6 +7,9 @@
 # For include the cpp files
 !*.cpp
 
+# For directorys
+!*/
+
 # Compiled Object files
 *.slo
 *.lo
