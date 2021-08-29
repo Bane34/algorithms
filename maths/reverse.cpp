@@ -17,11 +17,9 @@ int reverse(int n){
     int reversed = 0;
 
     while(n != 0) {
-        reversed += (n % 10);
+        reversed = (reversed * 10) + (n % 10);
         n /= 10;
-        reversed *= 10;
-        
     }
 
-    return reversed / 10;
+    return reversed;
 }
